@@ -128,7 +128,6 @@ echo -e "\e[32mCron configurado. 🚀\e[0m"
 
 # <--------------------------> #
 echo -e "\e[32mIniciando servidor web...\e[0m"
-git clone https://github.com/treslog/docker-server.git 
 cp -r frontend/* /var/www/frontend/
 cp -r backend/* /var/www/backend/
 cp .env.example .env
